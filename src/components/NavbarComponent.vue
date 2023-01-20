@@ -55,7 +55,7 @@
 </template>
 
 <script setup>
-import logo from '../../public/playground_assets/yenilogo.png'
+import logo from '../../public/Assets/yenilogo.png'
 import { useRouter } from "vue-router";
 
 const router = useRouter();

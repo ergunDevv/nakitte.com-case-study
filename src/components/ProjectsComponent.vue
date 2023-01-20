@@ -27,7 +27,7 @@
       </div>
       <div class="projeler-example5">
         <img
-          src="/playground_assets/image14236-vnm7-400h.png"
+          src="/Assets/image14236-vnm7-400h.png"
           alt="IMAGE14236"
           class="projeler-i-m-a-g-e11"
         />
@@ -55,14 +55,14 @@
         </div>
         <div class="projeler-favbutton11">
           <img
-            src="/playground_assets/ellipse14236-i7e-200h.png"
+            src="/Assets/ellipse14236-i7e-200h.png"
             alt="Ellipse14236"
             class="projeler-ellipse11"
           />
         </div>
         <div class="projeler-location11">
           <img
-            src="/playground_assets/location4236-nxul.svg"
+            src="/Assets/location4236-nxul.svg"
             alt="location4236"
             class="projeler-location1"
           />
@@ -73,21 +73,21 @@
           <span class="projeler-text42"><span>₺450.000 kalan yatırım</span></span>
           <div class="projeler-invetsbar11">
             <img
-              src="/playground_assets/rectangle154236-pcm-200h.png"
+              src="/Assets/rectangle154236-pcm-200h.png"
               alt="Rectangle154236"
               class="projeler-rectangle151"
             />
           </div>
         </div>
         <img
-          src="/playground_assets/image1beyaz4236-lcem-800w.png"
+          src="/Assets/image1beyaz4236-lcem-800w.png"
           alt="IMAGE1beyaz4236"
           class="projeler-i-m-a-g-e1beyaz1"
         />
       </div>
       <div class="projeler-example51">
         <img
-          src="/playground_assets/image14236-8zt-400w.png"
+          src="/Assets/image14236-8zt-400w.png"
           alt="IMAGE14236"
           class="projeler-i-m-a-g-e12"
         />
@@ -115,7 +115,7 @@
         </div>
         <div class="projeler-favbutton12">
           <img
-            src="/playground_assets/ellipse14236-jgkh-200h.png"
+            src="/Assets/ellipse14236-jgkh-200h.png"
             alt="Ellipse14236"
             class="projeler-ellipse12"
           />
@@ -128,38 +128,38 @@
           <span class="projeler-text64"><span>₺450.000 kalan yatırım</span></span>
           <div class="projeler-invetsbar12">
             <img
-              src="/playground_assets/rectangle154237-7x9v-200h.png"
+              src="/Assets/rectangle154237-7x9v-200h.png"
               alt="Rectangle154237"
               class="projeler-rectangle152"
             />
           </div>
         </div>
         <img
-          src="/playground_assets/image1beyaz4237-hzs-800w.png"
+          src="/Assets/image1beyaz4237-hzs-800w.png"
           alt="IMAGE1beyaz4237"
           class="projeler-i-m-a-g-e1beyaz2"
         />
       </div>
       <div class="projeler-projeleroksa">
         <img
-          src="/playground_assets/ellipse14237-nqu-200h.png"
+          src="/Assets/ellipse14237-nqu-200h.png"
           alt="Ellipse14237"
           class="projeler-ellipse13"
         />
         <img
-          src="/playground_assets/arrowright4237-h6h8.svg"
+          src="/Assets/arrowright4237-h6h8.svg"
           alt="arrowright4237"
           class="projeler-arrowright"
         />
       </div>
       <div class="projeler-projeleroksa1">
         <img
-          src="/playground_assets/ellipse14237-nqu-200h.png"
+          src="/Assets/ellipse14237-nqu-200h.png"
           alt="Ellipse14237"
           class="projeler-ellipse14"
         />
         <img
-          src="/playground_assets/arrowright4237-su3y.svg"
+          src="/Assets/arrowright4237-su3y.svg"
           alt="arrowright4237"
           class="projeler-arrowright1"
         />

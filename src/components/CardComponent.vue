@@ -5,7 +5,7 @@
 
     <div class="example3-example3">
       <img
-        src="/playground_assets/image1beyaz4231-849w-800w.png"
+        src="/Assets/image1beyaz4231-849w-800w.png"
         alt="IMAGE1beyaz4231"
         class="example3-i-m-a-g-e1beyaz"
       />
@@ -40,19 +40,19 @@
       </div>
       <div class="example3-favbutton1">
         <img
-          src="/playground_assets/ellipse14231-8fgai-200h.png"
+          src="/Assets/ellipse14231-8fgai-200h.png"
           alt="Ellipse14231"
           class="example3-ellipse1"
         />
         <img
-          src="/playground_assets/heart4231-kuoe.svg"
+          src="/Assets/heart4231-kuoe.svg"
           alt="heart4231"
           class="example3-heart"
         />
       </div>
       <div class="example3-location1">
         <img
-          src="/playground_assets/location4231-9wi9.svg"
+          src="/Assets/location4231-9wi9.svg"
           alt="location4231"
           class="example3-location"
         />
@@ -63,7 +63,7 @@
         <span class="example3-text20"><span>₺450.000 kalan yatırım</span></span>
         <div class="example3-invetsbar1">
           <img
-            src="/playground_assets/rectangle154231-a9w-200h.png"
+            src="/Assets/rectangle154231-a9w-200h.png"
             alt="Rectangle154231"
             class="example3-rectangle15"
           />

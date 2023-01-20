@@ -21,13 +21,12 @@ watch(()=>{
   /*   FETCH DATA             */
     fetchTasksData();
     async function fetchTasksData() {
-      console.log("fetch task data url : ",fetchURL.value)
       const res = await fetch(`${fetchURL.value}`);
       const data = await res.json();
+      console.log("Data results:",data)
+      
       gamesRef.value= toRaw(data.results);
       gameNextURL.value=toRaw(data.next)
-      console.log(gamesRef.value)
-      console.log(gameNextURL.value)
 
 
       return data;
