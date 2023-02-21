@@ -1,6 +1,7 @@
 
 <script setup>
 import { useGamesFetchDataStore } from "../store/data";
+import Failure from '../failure/ProjectCardFailure'
 
 const store = useGamesFetchDataStore();
 const { changeNextUrl, changeGamesObject } = store;
@@ -14,10 +15,11 @@ async function fetchTasksData() {
   return data;
 }
 try {
-  
   fetchTasksData();
+  // throw new Error("parameter problem")  
 } catch (error) {
   console.log("ERRRORRR ERGUN : ",error)
+  console.log(Failure.nameTooLong)
 }
 
 </script>

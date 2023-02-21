@@ -1,4 +1,4 @@
-import { AbstractFailure } from "../../../core/domain/failure";
+import { AbstractFailure } from "../../domain/failure";
 
 export default class ProjectCardFailure extends AbstractFailure {
    static  nameTooLong = new ProjectCardFailure(
@@ -10,6 +10,7 @@ export default class ProjectCardFailure extends AbstractFailure {
     "2",
     "Name cannot be empty."
   );
+
 }
 
 // ProjectCardFailure.nameTooLong

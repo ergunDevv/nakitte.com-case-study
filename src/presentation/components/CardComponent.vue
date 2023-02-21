@@ -84,7 +84,6 @@ const props = defineProps(['game'])
 
 
 let gameData = toRaw(props.game)
-console.log("game DATA : " , gameData)
 
 // Routing to card component
 const router = useRouter();

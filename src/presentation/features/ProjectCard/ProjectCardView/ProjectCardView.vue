@@ -1,14 +1,12 @@
 <script setup>
-import CardComponent from "../components/CardComponent.vue";
+import CardComponent from "../../../components/CardComponent.vue";
 import { ref } from "vue";
-import { useGamesFetchDataStore } from "../core/application/store/data";
+import { useGamesFetchDataStore } from "../../../../core/application/store/data";
 import fetchTasksData from "@/core/application/infrastructure/fetchData.vue";
 
 const gamesRef = ref([]);
 const data = useGamesFetchDataStore();
 gamesRef.value = data.games;
-console.log(gamesRef.value);
-console.log("data games:" + data.games[0]);
 </script>
 
 <template>
