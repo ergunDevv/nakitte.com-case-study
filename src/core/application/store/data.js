@@ -2,17 +2,12 @@ import { defineStore } from "pinia";
 
 export const useGamesFetchDataStore = defineStore("games", {
   state: () => ({
-    games: [
-      {
-        id: 1,
-        text: "clean room",
-        isFinished: false,
-      },
-    ],
+    games: [],
+    textOfNothing:"textOfNothing",
     fetchURL:
       "https://api.rawg.io/api/games?key=257ad12aa1114c9b8f5a7f8ab2f6ce83",
     gameNextURL:
-      "https://api.rawg.io/api/games?key=257ad12aa1114c9b8f5a7f8ab2f6ce83&page=2",
+      "https://api.rawg.io/api/games?key=257ad12aa1114c9b8f5a7f8ab2f6ce83&page=3",
   }),
   getters: {
     getGames() {
@@ -31,11 +26,12 @@ export const useGamesFetchDataStore = defineStore("games", {
       this.gameNextURL = nextUrl;
       console.log(this.gameNextURL);
     },
-    fetchUrl(fetchURL) {
+    changeFetchUrl(fetchURL) {
       this.fetchURL = fetchURL;
     },
     changeGamesObject(gamesArr) {
       this.games = gamesArr;
+      console.log(this.games)
     },
   },
 });

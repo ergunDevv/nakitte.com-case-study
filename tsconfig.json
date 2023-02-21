@@ -35,7 +35,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-, "src/core/application/infrastructure/fetchData.js", "src/main.ts", "src/main.ts"  ],
+, "src/core/application/infrastructure/fetchData.vue", "src/main.ts", "src/main.ts"  ],
   "exclude": [
     "node_modules"
   ]
