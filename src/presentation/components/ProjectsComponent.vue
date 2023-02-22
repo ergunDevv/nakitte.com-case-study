@@ -1,22 +1,33 @@
-
-  <script setup>
+<script setup>
 import CardComponent from "./CardComponent.vue";
 import { defineProps, watch, ref } from "vue";
+import fetchTasksData from "@/core/application/infrastructure/fetchData.vue";
+import { useGamesFetchDataStore } from "../../core/application/store/data";
+const data = useGamesFetchDataStore();
+const {changeFetchUrl} = data;
 const props = defineProps(["firstObjectOfGamesRef"]);
 const game = ref([]);
-
+const countKey = ref(0);
 watch(() => {
   game.value = props.firstObjectOfGamesRef;
 });
+const fetchNewData =()=>{
+  console.log("fetch button works")
+  changeFetchUrl(data.gameNextURL)
+  console.log(data.fetchURL)
+  console.log(game.value)
+  countKey.value+=1;
+}
 </script>
 
 
 <template>
   <div class="projeler-container">
+    <fetchTasksData :key="countKey.valueOf"/>
     <div class="projeler-projeler">
       <div class="projeler-example3">
         <div>
-          <CardComponent v-bind:key="game.id" :game="game" />
+          <CardComponent v-bind:key="countKey.valueOf" :game="game" />
         </div>
       </div>
       <div class="projeler-example5">
@@ -142,11 +153,12 @@ watch(() => {
           class="projeler-i-m-a-g-e1beyaz2"
         />
       </div>
-      <div class="projeler-projeleroksa">
+      <div class="projeler-projeleroksa cursor-pointer" @click="fetchNewData()">
         <img
           src="/Assets/ellipse14237-nqu-200h.png"
           alt="Ellipse14237"
-          class="projeler-ellipse13"
+          class="projeler-ellipse13 "
+          
         />
         <img
           src="/Assets/arrowright4237-h6h8.svg"

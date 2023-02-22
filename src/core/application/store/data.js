@@ -6,7 +6,7 @@ export const useGamesFetchDataStore = defineStore("games", {
     fetchURL:
       "https://api.rawg.io/api/games?key=257ad12aa1114c9b8f5a7f8ab2f6ce83",
     gameNextURL:
-      "https://api.rawg.io/api/games?key=257ad12aa1114c9b8f5a7f8ab2f6ce83&page=3",
+      "https://api.rawg.io/api/games?key=257ad12aa1114c9b8f5a7f8ab2f6ce83&page=2",
   }),
   getters: {
     getGames() {
@@ -24,8 +24,8 @@ export const useGamesFetchDataStore = defineStore("games", {
     changeNextUrl(nextUrl) {
       this.gameNextURL = nextUrl;
     },
-    changeFetchUrl(fetchURL) {
-      this.fetchURL = fetchURL;
+    changeFetchUrl(newfetchURL) {
+      this.fetchURL = newfetchURL;
     },
     changeGamesObject(gamesArr) {
       this.games = gamesArr;
