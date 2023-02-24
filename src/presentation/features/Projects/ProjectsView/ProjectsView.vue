@@ -1,7 +1,7 @@
 <script setup>
 import ProjectsComponent from "../../../components/ProjectsComponent.vue";
 import { ref, toRaw ,watch} from "vue";
-import fetchTasksData from "@/core/application/infrastructure/fetchData.vue";
+import fetchTasksData from "../../../../core/application/infrastructure/fetchData.vue";
 import { useGamesFetchDataStore } from "../../../../core/application/store/data";
 const data = useGamesFetchDataStore();
 const firstObjectOfGamesRef = ref([]);

@@ -12,10 +12,7 @@ watch(() => {
   game.value = props.firstObjectOfGamesRef;
 });
 const fetchNewData =()=>{
-  console.log("fetch button works")
   changeFetchUrl(data.gameNextURL)
-  console.log(data.fetchURL)
-  console.log(game.value)
   countKey.value+=1;
 }
 </script>

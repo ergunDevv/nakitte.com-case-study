@@ -6,7 +6,6 @@ import Failure from "../failure/ProjectCardFailure";
 const store = useGamesFetchDataStore();
 const { changeNextUrl, changeGamesObject } = store;
 
-console.log("fetch tasks data rendered again.");
 async function fetchTasksData() {
   const res = await fetch(store.fetchURL);
   const data = await res.json();
@@ -25,6 +24,5 @@ try {
 
 <template>
   <div>
-    <h1>fetching data rendered</h1>
   </div>
 </template>
